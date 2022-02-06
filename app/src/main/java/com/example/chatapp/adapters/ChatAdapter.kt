@@ -5,11 +5,11 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.recyclerview.widget.RecyclerView
-import com.example.whatsappclone.R
-import com.example.whatsappclone.models.ChatEvent
-import com.example.whatsappclone.models.DateHeader
-import com.example.whatsappclone.models.Message
-import com.example.whatsappclone.utils.formatAsTime
+import com.example.chatapp.R
+import com.example.chatapp.models.ChatEvent
+import com.example.chatapp.models.DateHeader
+import com.example.chatapp.models.Message
+import com.example.chatapp.utils.formatAsTime
 import kotlinx.android.synthetic.main.list_item_chat_recv_message.view.*
 import kotlinx.android.synthetic.main.list_item_date_header.view.*
 
@@ -122,3 +122,4 @@ abstract class DoubleClickListener : View.OnClickListener {
         private const val DOUBLE_CLICK_TIME_DELTA: Long = 300 //milliseconds
     }
 }
+

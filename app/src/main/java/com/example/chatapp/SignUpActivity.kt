@@ -10,7 +10,7 @@ import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import com.example.chatapp.MainActivity
 import com.example.chatapp.R
-import com.example.whatsappclone.models.User
+import com.example.chatapp.models.User
 import com.google.android.gms.tasks.Continuation
 import com.google.android.gms.tasks.Task
 import com.google.firebase.auth.FirebaseAuth

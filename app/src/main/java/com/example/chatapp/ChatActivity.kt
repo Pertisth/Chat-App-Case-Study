@@ -1,17 +1,18 @@
-package com.example.whatsappclone
+package com.example.chatapp
 
 import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.example.chatapp.models.*
+import com.example.chatapp.utils.KeyboardVisibilityUtil
+import com.example.chatapp.utils.isSameDayAs
 import com.example.whatsappclone.adapters.ChatAdapter
-import com.example.whatsappclone.models.*
-import com.example.whatsappclone.utils.KeyboardVisibilityUtil
-import com.example.whatsappclone.utils.isSameDayAs
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.*
 import com.google.firebase.firestore.FirebaseFirestore
+import com.google.firebase.firestore.auth.User
 import com.squareup.picasso.Picasso
 import com.vanniktech.emoji.EmojiManager
 import com.vanniktech.emoji.EmojiPopup
