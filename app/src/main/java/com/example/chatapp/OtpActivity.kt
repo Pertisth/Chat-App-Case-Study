@@ -1,4 +1,4 @@
-package com.example.whatsappclone
+package com.example.chatapp
 
 import android.app.ProgressDialog
 import android.content.Context
@@ -17,6 +17,7 @@ import androidx.appcompat.app.AppCompatActivity
 import androidx.core.view.isVisible
 import com.example.chatapp.MainActivity
 import com.example.chatapp.R
+import com.example.whatsappclone.LoginActivity
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
 import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseTooManyRequestsException

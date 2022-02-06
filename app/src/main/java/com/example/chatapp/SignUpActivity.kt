@@ -1,4 +1,4 @@
-package com.example.whatsappclone
+package com.example.chatapp
 
 import android.Manifest
 import android.content.Intent

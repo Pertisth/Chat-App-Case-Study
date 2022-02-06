@@ -1,9 +1,10 @@
-package com.example.whatsappclone
+package com.example.chatapp
 
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import com.example.chatapp.MainActivity
+import com.example.whatsappclone.LoginActivity
 import com.google.firebase.auth.FirebaseAuth
 
 class SplashActivity : AppCompatActivity() {
@@ -15,7 +16,7 @@ class SplashActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         if(auth.currentUser == null){
-            startActivity(Intent(this,LoginActivity::class.java))
+            startActivity(Intent(this, LoginActivity::class.java))
         }
         else{
             startActivity(Intent(this, MainActivity::class.java))
